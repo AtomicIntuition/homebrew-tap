@@ -1,26 +1,26 @@
 class Crisp < Formula
   desc "Website audit tool — security, performance, SEO & accessibility from your terminal"
   homepage "https://crisp.sh"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.0/crisp-darwin-arm64"
-      sha256 "0fdad63fc9d6910b0c08774e3be671cc304e2591d7daf43c2d50d37f013c4762"
+      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.1/crisp-darwin-arm64"
+      sha256 "69f2cfbe5e383511ec3b914244877c34648b58ef6670535fb4346dd0906f01d0"
     else
-      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.0/crisp-darwin-x64"
-      sha256 "d47769c680c789b58138811ee762817c9a966d277bea77fc79c0029fcd1f4042"
+      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.1/crisp-darwin-x64"
+      sha256 "57667dffbb3693646e394c3d02d458ec49945e52b230ae9bb310c5e22483e391"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.0/crisp-linux-arm64"
-      sha256 "8e246e78d6032b8a524a5dd4d03967d8b3b916bfd74dd8312937d5ec1ab47930"
+      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.1/crisp-linux-arm64"
+      sha256 "20e84858c600c467701248828982f25c7491a3718eeda5ec109ecdf5a7c08e7d"
     else
-      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.0/crisp-linux-x64"
-      sha256 "dfbda443dfe0da8b6bd779071d9ba2b01580b08dfab56796935763fe0cf766bc"
+      url "https://github.com/AtomicIntuition/3RR0R_K1NG/releases/download/cli-v0.2.1/crisp-linux-x64"
+      sha256 "5d2ebbb295d939f5cd36f9ccad0d475bf2447b9b42f06bf725002d0ae3953c80"
     end
   end
 
